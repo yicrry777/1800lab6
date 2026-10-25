@@ -8,7 +8,8 @@
 | Assignment / specialist agent | Assignment 6 / Emerging Technology Adoption Agent |
 | Date | 2026-10-24 (America/New_York) |
 | GitHub repository | https://github.com/yicrry777/1800lab6 |
-| Branch | `codex/assignment-6-waymo-adoption` |
+| Branch | `main` (assignment branch merged and removed) |
+| Main merge commit | [`bd6892b9c419c5fbe8cd1b6fb0d7422bb9036e17`](https://github.com/yicrry777/1800lab6/commit/bd6892b9c419c5fbe8cd1b6fb0d7422bb9036e17) |
 | Tested agent implementation commit | [`ce1079167bd58f5b5952fcc9ab9a7c4b3aeeb202`](https://github.com/yicrry777/1800lab6/commit/ce1079167bd58f5b5952fcc9ab9a7c4b3aeeb202) |
 | Frozen scaffold version | `MASY1800_ET_Agent_Scaffold_v1_0`; frozen core integrity passed |
 | Agent version | `1.0-student-2026-10-24` |
