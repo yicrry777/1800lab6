@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Waymo fully driverless robotaxi service",
+  "intended_application": "Offer Waymo-operated on-demand passenger trips through a Phoenix-area ride-hailing platform within Waymo's confirmed service area",
+  "organization": "DesertLink Mobility, a fictional regional Phoenix ride-hailing platform used solely as a decision case",
+  "industry_sector": "Arizona passenger transportation / transportation network company",
+  "business_need": "Improve ride availability and reduce rider wait times without replacing the existing human-driven service all at once",
+  "users_stakeholders": "Adult riders, Waymo, DesertLink operations and customer support, human drivers, insurers, road users, Arizona regulators",
+  "adoption_posture": "Moderate fast follower: willing to test a reversible partnership but unwilling to launch an unverified safety-critical service",
+  "capabilities_constraints": "Existing booking and customer-support operations; no confirmed Waymo commercial agreement, integration access, unit economics, incident-response agreement, or verified permit allocation in this case",
+  "risk_consequence_context": "Passenger injury, road-user harm, insurance and liability disputes, accessibility gaps, service failures, privacy and trust; commercial deployment must remain within the approved operational domain",
+  "management_question": "What adoption posture should DesertLink take toward a Waymo-operated Phoenix robotaxi offering now?",
+  "time_horizon": "Decision in October 2026; reassess over the next 6 months",
+  "additional_context": "Case organization and its capabilities are hypothetical assumptions. Do not claim DesertLink exists or already has any partnership or permit. Current external evidence is summarized in agents/adoption_agent/evidence/source_register.md and must be checked against the original links before it is used."
+}

@@ -1,0 +1,15 @@
+# Waymo robotaxi adoption evidence register
+
+Checked by Shuoying Wang with ChatGPT/Codex on 2026-10-24 (America/New_York). These are source facts, not facts about the fictional case organizations. The pages can change; refresh them before an actual management decision.
+
+| ID | Original source and dated observation | What it supports | Limit |
+| --- | --- | --- | --- |
+| W1 | [Waymo Phoenix service page](https://waymo.com/rides/phoenix/), accessed 2026-10-24. Waymo offers app-booked driverless rides in Metro Phoenix; the page describes service area and rider process. | Commercial diffusion in the same city and application. | Vendor description; does not establish third-party integration access or service quality for a partner. |
+| W2 | [Waymo Safety Impact](https://waymo.com/safety/impact/), data through June 2026, accessed 2026-10-24. Waymo reports 271.3 million rider-only miles across listed cities, including 92.121 million in Phoenix. It compares rider-only surface-street crash rates with adjusted human benchmarks. | Substantial deployment and a relevant safety data set. | Company analysis; retrospective, restricted geography/road types and operational domain. It does not prove zero risk or transfer to every route or population. |
+| N1 | [NHTSA recall report 26E035](https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26E035-7637.pdf), submitted 2026-06-17. It reports Waymo 5th Generation ADS risk of entering freeway construction zones, Phoenix events, operational restrictions, and planned software/protocol remedy. | Material counterevidence and a reason to ask about route restrictions and current remedy status. | Report documents a recall; it does not establish the status of every current fleet vehicle. Verify current status with Waymo/NHTSA before any pilot. |
+| A1 | [Arizona DOT driverless operation requirements](https://azdot.gov/autonomous-vehicles-testing-and-operating-without-driver), accessed 2026-10-24. ADOT describes law-enforcement interaction plan, written statements, vehicle/insurance requirements, and minimal-risk condition. | Driverless operation has specific state requirements. | This page alone does not determine which entity bears each duty in a proposed partnership. |
+| A2 | [Arizona DOT TNC requirements](https://azdot.gov/mvd/services/professional-services/vehicle-hire-licensing/transportation-network-companies-tnc), accessed 2026-10-24. Passenger-for-hire TNCs require a Vehicle for Hire Permit and financial-liability coverage. | Commercial service and insurance need legal review. | Not a legal opinion; the fictional operator's permit and coverage are unknown. |
+
+## Analytical use
+
+General technology maturity is supported by W1/W2 and qualified by N1. Phoenix application fit is supported by W1; the proposed partner integration, economics, and service arrangements are **unknown**, not source facts. Organization-specific risk tolerance is a case assumption. No source was found establishing that Waymo offers this fictional organization a commercial agreement or API. That missing evidence must constrain the recommendation.
