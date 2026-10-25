@@ -1,14 +1,14 @@
 {
-  "emerging_technology": "REPLACE",
-  "intended_application": "REPLACE",
-  "organization": "REPLACE",
-  "industry_sector": "REPLACE",
-  "business_need": "REPLACE",
-  "users_stakeholders": "REPLACE",
-  "adoption_posture": "REPLACE",
-  "capabilities_constraints": "REPLACE",
-  "risk_consequence_context": "REPLACE",
-  "management_question": "REPLACE",
-  "time_horizon": "REPLACE",
-  "additional_context": ""
+  "emerging_technology": "Waymo fully driverless robotaxi service",
+  "intended_application": "Offer Waymo-operated on-demand passenger trips through a Phoenix-area ride-hailing platform on a proposed but unspecified set of routes",
+  "organization": "DesertLink Mobility, the same fictional regional ride-hailing platform as the primary case",
+  "industry_sector": "Arizona passenger transportation / transportation network company",
+  "business_need": "Reduce wait times on poorly served trips",
+  "users_stakeholders": "Riders, Waymo, operations and customer support, human drivers, insurers and road users",
+  "adoption_posture": "Moderate fast follower",
+  "capabilities_constraints": "Management has supplied no trip-level route/geofence data, rider wait-time baseline, demand forecast, fallback capacity, Waymo access terms, or cost data",
+  "risk_consequence_context": "Passenger injury and service interruption can be consequential; the intended route mix may include freeways or construction zones but is unknown",
+  "management_question": "Can management select a live or non-passenger adoption path without knowing where trips would occur or whether Waymo can serve them?",
+  "time_horizon": "October 2026 decision; seek missing data within 30 days",
+  "additional_context": "Fictional evidence-gap stress test. Keep the general Waymo evidence unchanged; explicitly request the smallest route, coverage, baseline and agreement data needed."
 }

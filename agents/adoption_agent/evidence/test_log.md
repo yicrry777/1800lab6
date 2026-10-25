@@ -13,3 +13,19 @@ Student: Shuoying Wang. All times are America/New_York dates. Prompts were built
 ## Revision target
 
 Replace the vague “prefer a limited pilot” rule with named action categories, decision gates, a no-passenger preflight phase, explicit counterevidence handling, and a route to request more evidence. Then run primary, risk-posture contrast, and insufficient-evidence cases through the actual prompt builder and validator.
+
+## 2026-10-24 revised run, v1.0
+
+1. Rebuilt three actual prompt packets using `tools/build_prompt.py`: `primary.json`, `contrast_1.json`, and `contrast_2.json`. Each command returned a generated path under ignored `work/`.
+2. Evaluated each case in this ChatGPT/Codex session using the revised specialist instructions and the checked original sources; saved the three `responses/*_response.json` files. This is not a live operation, independent model benchmark or OpenAI API call.
+3. Ran `tools/validate_response.py` separately on all three final JSON responses: **VALIDATION PASSED** for each.
+4. Ran `agents/adoption_agent/verify_cases.py`: **SEMANTIC CASE CHECK PASSED**. The general Waymo finding is exactly identical in the three outputs. Present recommendations are **PROOF OF CONCEPT**, **DEFER**, and **REQUEST MORE EVIDENCE** respectively, and all prohibit current passenger rollout.
+5. Ran `tools/check_frozen_core.py`: **FROZEN CORE INTACT**. Ran `git diff --exit-code main -- core tools`: no differences. Ran `python3 -m compileall -q agents/adoption_agent/verify_cases.py`: exit 0.
+
+## What stayed stable and what changed
+
+The general finding stayed stable: Waymo has commercial Phoenix operations and substantial rider-only deployment, while the Waymo evidence is operational-domain limited and the 2026 construction-zone recall is material. The application and organization judgment changed: a moderate private ride-hail platform can do non-passenger diligence, whereas a conservative public provider with unproven accessible equivalent service should defer a public passenger offering. When route/coverage and vendor access are omitted, the response explicitly requests more evidence instead of choosing a pilot by default.
+
+## Remaining limitations
+
+The fictional organizations supplied no internal records. No Waymo partner agreement, dispatch API rights, route-level demand, current fleet remedy status, accessible-service audit, permit/insurance allocation, or unit economics were verified. The local validator checks structure, and `verify_cases.py` checks a few decision invariants; neither verifies every substantive claim or certifies a live service. Recheck changing vendor and regulatory sources before any real decision.

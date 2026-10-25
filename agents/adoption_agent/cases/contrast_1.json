@@ -1,14 +1,14 @@
 {
-  "emerging_technology": "REPLACE",
-  "intended_application": "REPLACE",
-  "organization": "REPLACE",
-  "industry_sector": "REPLACE",
-  "business_need": "REPLACE",
-  "users_stakeholders": "REPLACE",
-  "adoption_posture": "REPLACE",
-  "capabilities_constraints": "REPLACE",
-  "risk_consequence_context": "REPLACE",
-  "management_question": "REPLACE",
-  "time_horizon": "REPLACE",
-  "additional_context": ""
+  "emerging_technology": "Waymo fully driverless robotaxi service",
+  "intended_application": "Offer Waymo-operated on-demand passenger trips in Phoenix within Waymo's confirmed service area as an alternative to human-driven rides",
+  "organization": "Phoenix Civic Mobility Office, a fictional municipal mobility provider used solely as a decision case",
+  "industry_sector": "Public passenger mobility in Arizona",
+  "business_need": "Improve late-evening trip availability while retaining access for riders who need disability accommodations",
+  "users_stakeholders": "Adult riders, riders with disabilities, public officials, Waymo, customer support, insurers, road users, Arizona regulators",
+  "adoption_posture": "Conservative and risk-averse: requires stronger proof of equitable access, oversight and liability clarity before any public passenger pilot",
+  "capabilities_constraints": "Can study travel gaps and run tabletop exercises, but has no confirmed Waymo agreement, procurement authority, permit responsibility, accessible fleet equivalence, service-level guarantee, or incident-response terms",
+  "risk_consequence_context": "Public trust, passenger/road-user injury, exclusion of riders with accessibility needs, procurement challenge, liability and service continuity; high reputational consequence",
+  "management_question": "Should the municipal provider offer Waymo-operated taxi-like trips now as part of its public service?",
+  "time_horizon": "Decision in October 2026; reassess in 6 months",
+  "additional_context": "Fictional case. Keep the same Waymo evidence cutoff as the primary case. This contrast is intentionally similar in technology and passenger application but changes public obligations, consequences and adoption posture."
 }

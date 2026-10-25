@@ -1,5 +1,7 @@
-# Student Agent Template
+# Assignment 6 Emerging Technology Adoption Agent
 
-Duplicate this folder using `python tools/new_agent.py <slug> "<display name>"`.
+Student: Shuoying Wang. Technology: Waymo fully driverless taxi service. Case organizations in this package are **fictional**; they make organizational context explicit without claiming a real partnership. The primary decision case is a moderate Phoenix ride-hailing platform. Contrast 1 holds the technology and passenger application similar while changing the organization to a risk-averse public provider. Contrast 2 tests missing decision-critical data.
 
-Edit the files in the new agent folder. Do not edit the template in place and do not edit FROZEN CORE unless authorized.
+The common input/output schemas and frozen core are unchanged. `specialist_instructions.md` contains the categories, decision gates, evidence policy and scope. `evidence/source_register.md` distinguishes verified public-source statements from case assumptions. `responses/` contains one retained weak initial output and the final case outputs. `evidence/test_log.md` records the actual runs and critique; `records/agent_record.md` is the Agent Record and team handoff.
+
+From the repository root, build a case packet with `python3 tools/build_prompt.py --agent agents/adoption_agent --case agents/adoption_agent/cases/primary.json`. Give the packet to ChatGPT, save JSON under `responses/`, then run `python3 tools/validate_response.py PATH` and `python3 tools/check_frozen_core.py`. The validator checks format, while the test log checks substantive judgment. No OpenAI API key is required.
